@@ -1,0 +1,57 @@
+body, ul, il, p, h1{
+margin: 0px;
+padding: 0px;
+list-style: none;
+font-family: Arial, Helvetica, sans-serif;
+}body{
+    background-image: url(fotos/fundo.jfif);
+}#opções{
+    display: flex;
+    background-color: rgba(24, 21, 20, 0.726);
+    justify-content: center;
+    padding: 30px;
+    border-radius: 7px;
+}li{
+    padding: 10px;
+    background-color: rgb(99, 99, 99);
+    margin: 10px;
+    border-radius: 7px;
+    display: flex; 
+}#nomedosite{
+    margin: 3px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}.noticias{
+    display: flex;
+    margin: 20px;
+    flex: 1 1 200px;
+}img{
+    max-width: 100%;
+    display: block;
+    border-radius: 7px;
+}.opção-individual{
+    margin: 10px;
+}.noticia{
+    margin: 10px;
+}footer{
+    margin-top: 199px;
+    background-color: black;
+    color: aliceblue;
+    padding: auto;
+    text-align: center;
+}a{
+    text-decoration: none;
+    color:antiquewhite;
+}
+.info{
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    margin-left: 560px;
+}.informação-site{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
